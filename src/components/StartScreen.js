@@ -1,0 +1,15 @@
+//CSS
+import './StartScreen.css'
+
+//TELA INICIAL
+const StartScreen = ({ startGame }) => {
+    return (
+        <div className="start-screen">
+            <h1>Secret Word</h1>
+            <p>Clique no botão abaixo para começar a jogar</p>
+            <button onClick={startGame}>Começar o jogo</button>
+        </div>
+    )
+}
+
+export default StartScreen
